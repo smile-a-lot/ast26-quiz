@@ -22,7 +22,6 @@ options:
       錯誤。
       操作1中，393K>380K，所以會出現 interrupt storm，會切換成Polling 模式。
   - text: "375K IOPS；操作1: Interrupt 模式；操作2: Interrupt 模式"
-    correct: true
     explanation: |
       錯誤。
       不能過於簡單用1000作為基底轉換，應該要用1024。
